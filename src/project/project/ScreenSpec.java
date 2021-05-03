@@ -1,4 +1,3 @@
-package project;
 
 public interface ScreenSpec {
     public String getResolution();

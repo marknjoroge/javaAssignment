@@ -1,4 +1,4 @@
-package project;
+
 
 public class Screen implements ScreenSpec{
     private String resolution;
