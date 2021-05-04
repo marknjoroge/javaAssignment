@@ -1,19 +1,24 @@
 public class Player implements MultimediaControl {
 
-    public static void play() {
+    public void play() {
         System.out.println("Playing from other player");
 
     }
-    public static void previous() {
+    public void previous() {
         System.out.println("Previously on other player");
     }
-    public static void stop() {
+    public void stop() {
         System.out.println("Stopping other player");
     }
 
+    public void next() {
+        System.out.println("Playing next song");
+    }
+
     public static void main(String [] args) {
-        play();
-        previous();
-        stop();
+        Player player = new Player();
+        player.play();
+        player.previous();
+        player.stop();
     }
 }
